@@ -21,12 +21,16 @@ padding-left: 2vw;
 padding-top: 6vw;
 color: white;
 text-decoration: none;
+font-size: 13px;
 }
 main{
     display: flex;
     border-width: 3px;
      border-bottom-style: solid;
      border-image: linear-gradient(to right, rgba(255, 0, 0, 0),rgba(255, 0, 0, 0), #ecd7c477, rgba(255, 0, 0, 0) , rgba(255, 0, 0, 0)) 1;
+}
+main > div{
+    width: 200px;
 }
 h1{
 font-family: fantasy;
@@ -43,10 +47,11 @@ color: black;
 background-color: white;
 border-radius: 10px;
 margin-left: 9vw;
-font-size: 12px;
+font-size: 10px;
 }
 div#img{
 padding-left: 10vw;
+width: 100px;
 }
 main > div > img{
 width: 50vw;
